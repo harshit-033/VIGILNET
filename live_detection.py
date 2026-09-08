@@ -25,7 +25,7 @@ except ImportError:
     sys.exit(1)
 
 # Default paths and configurations
-DEFAULT_STREAM_URL = "http://152.20.19.147:8080/video"
+DEFAULT_STREAM_URL = "http://100.97.0.199:8080/video"
 BASE_DIR = Path(__file__).resolve().parent
 
 DEFECT_MODEL_PATH = BASE_DIR / "models" / "college_inspector_yolo11s_seg_best.pt"

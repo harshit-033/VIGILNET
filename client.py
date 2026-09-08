@@ -7,7 +7,7 @@ import websockets
 import json
 import datetime
 
-SERVER_IP = "127.0.0.1" # Default to localhost for testing, change to remote IP as needed
+SERVER_IP = "10.158.60.63" 
 SERVER_PORT = 8000
 SYSTEM_INFO_REFRESH_SECONDS = 30
 
